@@ -47,7 +47,7 @@ A: Backing up Jenkins is a very easy process, there are multiple default and con
 ```
 One can schedule the backups to occur regularly, such as daily or weekly, to ensure that you always have a recent copy of your Jenkins environment available. You can use tools such as cron or Windows Task Scheduler to automate the backup process.
 
-Q: How do you store/secure/handle secrets in Jenkins ?
+Q: How do you store/secure/handle secrets in Jenkins ? uiefiuwefcowecohweoi
 
 A: Again, there are multiple ways to achieve this, 
    Let me give you a brief explanation of all the posible options.
@@ -83,7 +83,7 @@ Q: can you use Jenkins to build applications with multiple programming languages
 
 A: Yes, Jenkins can be used to build applications with multiple programming languages by using different build agents in different stages of the build process.
 
-Jenkins supports multiple build agents, which can be used to run build jobs on different platforms and with different configurations. By using different agents in different stages of the build process, you can build applications with multiple programming languages and ensure that the appropriate tools and libraries are available for each language.
+Jenkins supports multiple build agents, which can be used to run build jobs on different platforms and with different configurations. By using different agents in different stages of the build process, you can build applications with multiple programming languages and ensure that the appropriate tools and libraries are available for each language. 
 
 For example, you can use one agent for compiling Java code and another agent for building a Node.js application. The agents can be configured to use different operating systems, different versions of programming languages, and different libraries and tools.
 

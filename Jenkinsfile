@@ -17,8 +17,12 @@ pipeline {
         stage('Test') {
             steps {
                 sh './run-tests.sh'  // Run your tests
+<<<<<<< HEAD
                 ls 
             }
+=======
+               }
+>>>>>>> 396e73bc9af5efb30bdba5f50124ae79f0ad8876
         }
 
         stage('Deploy') {
