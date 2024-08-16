@@ -17,7 +17,7 @@ A: In the current project we use the following tools orchestrated with Jenkins t
     8. Monitoring: The application is monitored for performance and availability using Kubernetes tools and other monitoring tools.
    
 
-Q: What are the different ways to trigger jenkins pipelines ?
+Q: What are the different ways to trigger jenkins pipelines ? wegiduweyofyw9pe4uvpoWEU$Po
 
 A: This can be done in multiple ways,
    To briefly explain about the different options,
