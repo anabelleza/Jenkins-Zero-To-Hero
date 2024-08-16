@@ -22,7 +22,11 @@ pipeline {
         stage('Test') {
             steps {
                 sh './run-tests.sh'  // Run your tests
+<<<<<<< HEAD
                 ls 
+=======
+                      'ls' 
+>>>>>>> b88ba26ad6275ad644ac8d4d2435e16fba1abc8e
             }
         }
         stage('Test2') {
