@@ -17,25 +17,21 @@ pipeline {
         stage('Test') {
             steps {
                 sh './run-tests.sh'  // Run your tests
-<<<<<<< HEAD
                 ls 
             }
-=======
-               }
->>>>>>> 396e73bc9af5efb30bdba5f50124ae79f0ad8876
         }
-
-        stage('Deploy') {
+        stage('Test2') {
             steps {
-                sshagent(['your-ssh-credentials-id']) {
-                    sh '''
-                    scp -r * user@your-server:/path/to/deploy
-                    ssh user@your-server 'cd /path/to/deploy && ./deploy.sh'
-                    '''
-                }
+                sh '''
+                ./run-tests.sh    
+                ls -al
+                '''   
+                
             }
         }
+
+        
     }
 
     
-i}
+}
