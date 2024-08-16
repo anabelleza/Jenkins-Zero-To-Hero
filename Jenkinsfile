@@ -17,8 +17,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh './run-tests.sh'  // Run your tests
-                ls -al 
-            }
+               }
         }
 
         stage('Deploy') {
